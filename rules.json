@@ -6,7 +6,7 @@
   ],
   "proxy": [
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/global.json",
-    "https://example.com/proxy-2.json"
+    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/stream.json"
   ],
   "adblock": [
     "https://example.com/adblock-1.json",
