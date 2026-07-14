@@ -1,0 +1,46 @@
+name: Merge Rules
+
+on:
+  schedule:
+    # 每天 UTC 00:00 运行一次（北京时间 08:00），可自行调整
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "rules.json"
+      - "scripts/merge_rules.py"
+      - ".github/workflows/merge-rules.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merge-rules
+  cancel-in-progress: true
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run merge script
+        run: python scripts/merge_rules.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rules/
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "chore: 自动更新合并规则 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
