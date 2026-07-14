@@ -4,7 +4,9 @@
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/direct.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-direct.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/weixin.json",
-    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/cnapp.json"
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/cnapp.json",
+    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cn.json",
+    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cdn.json"
   ],
   "proxy": [
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/global.json",
