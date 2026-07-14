@@ -7,6 +7,7 @@
     "https://raw.githubusercontent.com/jackszb/pure-sukka-rules/main/direct_custom_rules.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/weixin.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/cnapp.json",
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/whitelist.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cn.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cdn.json"
   ],
