@@ -1,0 +1,14 @@
+{
+  "direct": [
+    "https://example.com/direct-1.json",
+    "https://example.com/direct-2.json"
+  ],
+  "proxy": [
+    "https://example.com/proxy-1.json",
+    "https://example.com/proxy-2.json"
+  ],
+  "adblock": [
+    "https://example.com/adblock-1.json",
+    "https://example.com/adblock-2.json"
+  ]
+}
