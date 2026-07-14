@@ -9,7 +9,9 @@
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/stream.json"
   ],
   "adblock": [
-    "https://example.com/adblock-1.json",
-    "https://example.com/adblock-2.json"
+    "https://raw.githubusercontent.com/jackszb/sukka-clean/main/reject-I.json",
+    "https://raw.githubusercontent.com/jackszb/sukka-clean/main/reject-II.json",
+    "https://raw.githubusercontent.com/jackszb/clean/main/adblocksingbox.json",
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.json"
   ]
 }
