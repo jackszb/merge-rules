@@ -1,24 +1,15 @@
 {
   "direct": [
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/domestic.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/direct.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/lan.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-direct.json",
-    "https://raw.githubusercontent.com/jackszb/pure-sukka-rules/main/direct_custom_rules.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/weixin.json",
-    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/cnapp.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/whitelist.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cn.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cdn.json"
   ],
   "proxy": [
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/global.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-proxy.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/stream.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/ai.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/domainset/apple_cdn.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/domainset/cdn.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/cdn.json",
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-proxy-2.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_intelligence.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_services.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/domainset/icloud_private_relay.json"
