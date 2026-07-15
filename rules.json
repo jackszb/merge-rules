@@ -3,16 +3,10 @@
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/lan.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-direct.json",
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/weixin.json",
-    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/whitelist.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cn.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_cdn.json"
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/apple-cn.json"
   ],
   "proxy": [
-    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-proxy.json",
-    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-proxy-2.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_intelligence.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/non_ip/apple_services.json",
-    "https://raw.githubusercontent.com/jackszb/sukka-json/main/domainset/icloud_private_relay.json"
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/shadowrocket-proxy.json"
   ],
   "adblock": [
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/ios-update.json",
